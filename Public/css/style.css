@@ -1,0 +1,1334 @@
+
+.foward-index{
+  z-index: 9999;
+}
+#Top-Nav-Button{
+  background-color: #343A40;
+  color: #fff;
+  border: none;
+  width: 100%;
+  margin: auto;
+  height: auto;
+}
+.Top-Nav-Button-Link{
+  text-decoration: none;
+  color: #fff;
+  width: 100%;
+  padding: 0px 50px;
+  height: auto;
+}
+.Top-Nav-Button-Link:hover{
+  text-decoration: none;
+  background-color: #FFD93B;
+  color: #000;
+}
+#Top-Nav-Button:hover{
+  background-color: #FFD93B;
+  color: #000;
+}
+.Home-Logo{
+  width: auto;
+  height: 50px;
+  border: 1px solid #FFD93B;
+  background-color: #FFD93B;
+  border-radius: 0.25rem;
+  padding: 0px 3px;
+  margin-left: 18px;
+}
+.Home-Logo a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-family: 'Homemade Apple';
+  padding: 0px 5px;
+}
+.Home-Logo a img{
+  width: auto;
+  height: 100%;
+}
+/*Change color of hr*/
+hr{
+  border: 0.1px solid #e5e5e5; /*Grey*/
+}
+/*Extra customization*/
+.Navbar-icons{
+  font-size: 21px;
+  color: black;
+}
+#Hamburger-icon{
+  background-color: #fff;
+  border: none;
+  text-decoration: none;
+  outline: 0;
+}
+/*Side Navigation Bar*/
+#Side-Navigation-Bar{
+  border-right: 1px solid #e5e5e5;
+  width: 240px;
+  height:90vh;
+  padding: 2px 4px;
+  position: fixed;
+}
+#Side-Navigation-Bar ul{
+  list-style-type: none;
+  margin-left: -40px;
+}
+#Side-Navigation-Bar ul a{
+  text-decoration: none;
+  color: black;
+}
+#Side-Navigation-Bar ul li{
+  font-size: 15px;
+  padding: 8px 18px;
+}
+#Side-Navigation-Bar ul li:hover{
+  background-color: #FFD93B;
+    border-radius: 12px;
+}
+#Side-Navigation-Bar ul li img{
+  height: 28px;
+  width: 28px;
+}
+.Side-Navigation-Bar-Details{
+  margin-left: 20px;
+  font-size: 13px;
+}
+.Side-Navigation-Bar-Hr{
+  border: 1px solid #e5e5e5;
+}
+
+/*Main Section*/
+#Main-Section{
+  margin-top: 65px;
+  margin-left: 240px;
+  width: calc(100% - 240px);
+  position: relative;
+}
+#Top-Container{
+  background-image: url("Wallpaper.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  width: 100%;
+  height: 525px;
+  position: relative;
+  opacity: 0.90;
+}
+#Search-Wrapper{
+  padding: 4px 8px;
+  width: 400px;
+  height: 260px;
+  position: relative;
+  z-index: 2;
+  top: 80px;
+  left: 80px;
+  border-radius: 0.25rem;
+  background-color: rgb(255,250,250,0.9);
+}
+#Search-Title-Wrapper{
+  margin-top: 10px;
+  padding: 4px 8px;
+  font-size: 30px;
+  font-family: 'Jomolhari';
+}
+#Location-Wrapper{
+  margin-top: 20px;
+  width: calc((100% / 2) - 4.0px);
+  display: inline-block;
+}
+
+.select2-container .select2-selection--single{
+  height:38px !important;
+  display: inline-block;
+  width: 50%;
+  outline: none !important;
+}
+.select2-container--default .select2-selection--single{
+  border: 1px solid #e5e5e5 !important;
+  background-color: #F3F5F7 !important;
+  border-radius: 0px !important;
+  width: 100%;
+  outline: none !important;
+}
+#DateTime-Range-Wrapper{
+  margin-top: 20px;
+  width: 100%;
+  display: block;
+}
+#DateTime-Range{
+  width: 100%;
+  height:34px !important;
+  padding: 2px 8px;
+  border-radius: 0px;
+  border-width: 0px;
+  background-color: #F3F5F7 !important;
+  color: #585858 !important;
+}
+#Search-Button-Wrapper{
+  margin-top: 20px;
+  width: 100%;
+  height:34px;
+  display: block;
+  text-align: center;
+  outline: none;
+}
+#Search-Button{
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  background-color: #FFD93B;
+  border: 1px solid #FFD93B;
+  outline: none;
+}
+#Main-Container{
+  padding:16px 32px;
+  width: 1050px;
+  margin: 0px auto;
+  position: relative;
+}
+#Main-Title{
+  width: 100%;
+  font-size: 35px;
+  margin: 25px 0px;
+    font-family: 'Jomolhari';
+}
+.Car-Details-Container{
+  border: 1px solid #e5e5e5;
+  border-radius: 0.40rem;
+  width: calc((100% / 3) - 12.0px);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 400px;
+  display: inline-block;
+  margin: 0px 4px;
+}
+.Car-Image-Container{
+  width: 100%;
+  height: 250px;
+}
+.Car-Image-Container img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 0.40rem;
+  border-top-right-radius: 0.40rem;
+}
+.Car-Infos-Container{
+  width: 100%;
+  height: 150px;
+  font-family: 'Jomolhari';
+}
+.Car-Info-Container{
+  width: 100%;
+  height: 80px;
+  display: block;
+  padding: 4px 8px;
+}
+.Car-Info-Name{
+  width: 100%;
+  font-size: 20px;
+  display: block;
+  margin-bottom: 0px;
+}
+.Car-Info-Price{
+  width: 100%;
+  font-size: 25px;
+  display: block;
+  text-align: center;
+  padding: 0px;
+}
+.Car-Info-Original-Price{
+  padding: 0px;
+  font-size: 14px;
+  display: block;
+  color: red;
+  text-decoration: line-through !important;
+  text-align: center;
+  margin-bottom: 0px;
+}
+.Book-Button-Container{
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  outline: none;
+}
+.Book-Button{
+  width: 100%;
+  background-color: #FFD93B;
+  border: none;
+  padding: 4px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  outline: none;
+}
+.Horizontal-Cars-Container{
+  width: 100%;
+  height: 225px;
+  border: 1px solid #e5e5e5;
+  padding: 4px 8px;
+  font-family: 'Jomolhari';
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.Display-Inline-BLock{
+  display: inline-block;
+}
+.Horizontal-Cars-Left{
+  width: 60%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 2px;
+}
+.Horizontal-Cars-Name{
+  width: 100%;
+  font-size: 25px;
+  display: block;
+  padding: 4px 8px;
+}
+.Horizontal-Cars-Details ol{
+  width: 100%;
+  list-style: none;
+  padding: 4px 8px;
+  display: block;
+  margin-bottom: 2px;
+}
+.Horizontal-Cars-Details ol li{
+  counter-increment: inherit;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.Horizontal-Cars-Location{
+  font-size: 18px;
+  display: block;
+  padding: 0px;
+}
+.Horizontal-Cars-Location ol{
+  width: 100%;
+  padding: 4px 8px;
+  list-style: none;
+  display: block;
+  margin-bottom: 2px;
+}
+.Horizontal-Cars-Location ol li{
+  counter-increment: inherit;
+  display: block;
+  font-size: 18px;
+  vertical-align: top;
+}
+.Horizontal-Cars-Services{
+  width: 100%;
+  font-size: 18px;
+  display: block;
+  padding: 0px;
+}
+.Horizontal-Cars-Services ol{
+  padding: 4px 8px;
+  list-style: none;
+  display: block;
+  margin-bottom: 2px;
+}
+.Horizontal-Cars-Services ol li{
+  counter-increment: inherit;
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 8px;
+}
+.Horizontal-Cars-Middle{
+  width: 17%;
+  height: 100%;
+  display: inline-block;
+  padding: 3px;
+  float: right;
+  border-left: 1px solid #e5e5e5;
+  margin: 0px 2px;
+}
+.Horizontal-Cars-Middle img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
+}
+.Horizontal-Cars-Right{
+  width: 20%;
+  height: 100%;
+  display: inline-block;
+  padding: 8px;
+  border-left: 1px solid #e5e5e5;
+  float: right;
+  text-align: center;
+  padding-top: 6%;
+}
+.Horizontal-Cars-Original-Price{
+  width: 100%;
+  color: red;
+  text-decoration: line-through !important;
+  font-size: 18px;
+  display: block;
+  padding: 0px;
+}
+.Horizontal-Cars-Promotion-Price{
+  width: 100%;
+  font-size: 25px;
+  display: block;
+  padding: 0px;
+}
+.total{
+  color:red;
+  font-size: 13px;
+  display: inline-block;
+}
+.Horizontal-Cars-Book-Button{
+  width: 100%;
+  background-color: #FFD93B;
+  border: none;
+  padding: 4px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  outline: none !important;
+}
+#Cars-Categories-wrapper{
+  width: 100%;
+  height: 500px;
+  padding: 4px 8px;
+}
+#Cars-Categories-Container{
+  vertical-align: top;
+  width: calc((100% / 2) - 8.0px);
+  height: 100%;
+  display: inline-block;
+  margin: auto;
+  margin-right: 5px;
+  padding: 4px 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.40rem;
+}
+#Cars-Categories-Title-Container{
+  width: 45%;
+  height: 45px;
+  font-size: 25px;
+  display: inline-block;
+}
+#Car-Category-Container{
+  width: 100%;
+  height: calc(100% - 45.0px);
+  column-count: 2;
+  column-gap: 8px;
+}
+#Car-Category-Container ol{
+  list-style-type: none;
+  margin-left: -40px;
+}
+#Car-Category-Container ol a{
+  text-decoration: none;
+  color: black;
+}
+#Car-Category-Container ol a li:hover{
+  background-color: #FFD93B;
+  border-radius: 0.45rem;
+}
+#Car-Category-Container ol a li{
+  font-size: 15px;
+  padding: 4px 12px;
+  margin-bottom: 4px;
+}
+.Car-Category-Image{
+  display: inline-block;
+  vertical-align: top;
+  width: 50px;
+  height: 50px;
+  object-fit: fill;
+}
+.Car-Category-Wrapper{
+  display: inline-block;
+  margin-left: 5px;
+}
+.Car-Category-Details{
+  display: block;
+  padding:0px 5px;
+}
+.Details-Extra-Small{
+  font-size: 10px;
+  color: #696969; /*dimgray*/
+}
+#Our-Company-Properties{
+  vertical-align: top;
+  width: calc((100% / 2) - 10.0px);
+  height: 100%;
+  display: inline-block;
+  margin: auto;
+  padding: 4px 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.40rem;
+}
+.Our-Campony-Property-Container{
+  width: 100%;
+  height: calc(100% - 45.0px);
+}
+.Our-Campony-Property-Container ol{
+  list-style-type: none;
+  margin-left: -40px;
+}
+.Our-Campony-Property-Container ol a{
+  text-decoration: none;
+  color: black;
+}
+.Our-Campony-Property-Container ol a li{
+  margin-top: 2px;
+  margin-bottom: 30px;
+  border-radius: 0.25rem;
+  padding: 4px 8px;
+  width: 100%;
+  height: 250px;
+}
+.Our-Campony-Property-Container ol a li:hover{
+  background-color: #FFD93B;
+  border-radius: 0.45rem;
+}
+
+.Our-Campony-Property-Image-Wrapper{
+  margin: 2px 0px;
+  width: 100%;
+  height: calc(100% - 25.0px);
+  border-radius: 0.25rem;
+  object-fit: fill;
+  display: block;
+}
+.Our-Campony-Property-Details-Wrapper{
+  width: 100%;
+  height: 35px;
+  display: block;
+}
+/*Back to top button start*/
+#Back-To-Top-Button {
+  display: inline-block;
+  background-color: #FF9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s,
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#Back-To-Top-Button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#Back-To-Top-Button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#Back-To-Top-Button:active {
+  background-color: #555;
+}
+#Back-To-Top-Button.show {
+  opacity: 1;
+  visibility: visible;
+}
+/*Back to top button end*/
+/*Result and and filter the data section*/
+#Top-Filter-Section{
+  width: 100%;
+  height: 90px;
+  border-bottom: 1px solid #e5e5e5;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+/*This is where the search bar different form the home page*/
+#Result_DateTime_Range_Wrapper{
+  display: inline-block;
+  width: 40%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#Result_Pick_Up_Wrapper{
+  display: inline-block;
+  width: 20%;
+  margin-right: 15px;
+}
+#Result_Return_wrapper{
+  display: inline-block;
+  width: 20%;
+  margin-right: 15px;
+}
+#Result_Return_Search_Button_wrapper{
+  display: inline-block;
+  width: 10%;
+  vertical-align: middle;
+}
+#Main-Results-Container{
+  width: 100%;
+  height: auto;
+  margin-top:20px;
+}
+#Main-Results-Wrapper{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+#Side-Filter-Wrapper{
+  width: 250px;
+  height: 100%;
+  padding:12px 5px;
+  display: inline-block;
+  vertical-align: top;
+}
+#Side-Filter-Section{
+  width: 240px;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.25rem;
+}
+.Map-Button-Wrapper{
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  padding: 18px;
+}
+.Map-Button{
+  margin: auto;
+  border: none;
+  background-color: #FFD93B;
+  padding:16px 48px;
+  border-radius: 0.70rem;
+  font-size: 20px;
+  outline: none !important;
+}
+
+.dropdown-btn{
+  padding: 6px 2px 6px 5px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none !important;
+}
+.dropdown-btn i{
+  padding-top: 5px;
+  vertical-align: middle;
+}
+.active {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.checked {
+  color: orange;
+}
+.dropdown-container {
+  display: none;
+  width: 100%;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  font-size: 12px;
+}
+/*Pyament type start*/
+.container-block{
+  display: block;
+}
+.float-left{
+  float: left;
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #FFD93B;
+}
+/*Payment type end*/
+.Price-Range{
+  padding: 0px;
+  width: 90px;
+  height: auto;
+  color:#818181;
+}
+.Price-Range-Filter-Bar{
+  border: none;
+  color: #818181;
+  background-color: #FFD93B;
+  margin-left: 6px;
+  padding: 6px 8px;
+  border-radius: 0.25rem;
+}
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+#Main-Results-Section{
+  margin-top: 11px;
+  width: calc(100% - 260px);
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.Small-size{
+  font-size: 15px !important;
+}
+.Small-Picture{
+  width: 50px;
+  height: 50px;
+}
+/*Start of Book Car wrapper*/
+/*Book top filter section*/
+#Top-Filter-Icon-Section{
+  margin: auto;
+  text-align: center;
+}
+.Book-Top-Filter-Icons{
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+}
+.Book-Top-Filter-Line{
+  width: 120px;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid #000;
+}
+.Book-Top-Filter-Line-Done{
+  border: 1px solid #FFD93B;
+}
+#Book-Car-Wrapper{
+  width: 95%;
+  height: 550px;
+  padding-top: 15px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+#Book-Car-Section{
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.80rem;
+  width: 100%;
+  height: 100%;
+}
+#Book-Car-Image-Location-Details-Wrapper{
+  width: 70%;
+  height: 94%;
+  display: inline-block;
+  vertical-align: top;
+}
+#Book-Car-Image-Wrapper{
+  width: calc((100% / 2) - 3.0px);
+  height: 49%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px;
+}
+#Book-Car-Image-Wrapper img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding:4px;
+  border-radius: 0.8rem;
+}
+#Book-Car-Location-Wrapper{
+  width: calc((100% / 2) - 2.0px);
+  height: 49%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 3px;
+}
+#Book-Car-Pick-Up-Location-Wrapper{
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  margin-top: 11px;
+  margin-bottom: 4px;
+}
+#Book-Car-Pick-Up-Location{
+  width: 62%;
+  display: inline-block !important;
+}
+#Book-Car-Return-Location-Wrapper{
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  margin-top: 11px;
+  margin-bottom: 4px;
+}
+#Book-Car-Return-Location{
+  width: 62%;
+  display: inline-block !important;
+}
+#Book-Car-Return-Date-Wrapper{
+  width: 10%;
+  display: inline-block !important;
+}
+#Book-Car-Return-Date{
+    padding: 6px;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    background-color: #ccc;
+}
+#Special-Remark{
+  width: 100%;
+  height: auto;
+  padding: 8px;
+  font-size: 11px;
+  color: #FF0000;
+}
+#Book-Car-Details-Wrapper{
+  width: 100%;
+  height: 49%;
+  display: block;
+}
+/*Using class because i lazy code one by one*/
+.Book-Car-Detail-Wrapper{
+  width: calc((100% / 2) - 3.0px);
+  height: calc((100% / 2) - 3.0px);
+  display: inline-block;
+  vertical-align: top;
+}
+.Customer-Name{
+  font-size: 10px;
+  float: right;
+}
+.Review-Container{
+  width: 100%;
+  height: auto;
+  padding: 2.5px;
+}
+.Review-Content-Container{
+  border-radius: 0.80rem;
+  border: 1px solid #e5e5e5;
+  padding: 5px;
+
+}
+.Border-Right-Line{
+  border-right: 1px solid #e5e5e5;
+}
+.Book-Car-Name{
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 6px;
+}
+.Book-Car-Functions ol{
+  list-style-type: none;
+  margin-left: -28px;
+  column-count: 2;
+}
+.Book-Car-Important-Info{
+  width: 100%;
+  height: auto;
+  display: block;
+  padding: 6px;
+}
+.Information-Buttons{
+  background-color: #FFD93B;
+  border: none;
+  border-radius: 0.25rem;
+  color: #000000;
+  padding: 6px 16px;
+  width: 75%;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.Book-Car-Services ol{
+  margin-top: 6px;
+  list-style-type: none;
+  margin-left: -28px;
+}
+#Book-Car-Price-Wrapper{
+  width: 29%;
+  height: 94%;
+  border-left: 1px solid #e5e5e5;
+  display: inline-block;
+  vertical-align: top;
+  padding: 6px;
+}
+.Book-Car-Tilte{
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+  font-weight: bold;
+  display: block;
+}
+.Book-Car-Charges-Wrapper{
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+  padding: 15px 2px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.Book-Car-Charge-Name{
+  width: 65%;
+  height: auto;
+  display: inline-block;
+}
+.Book-Car-Charge-Price{
+  width: 35%;
+  height: auto;
+  display: inline-block;
+  float: right;
+  text-align: right;
+}
+.Book-Car-Period{
+  width: 100%;
+  height: auto;
+  display: block;
+  float: right;
+  text-align: right;
+  font-size: 11px;
+  padding: 4px 0px;
+}
+.Book-Car-Estimate-Price-Title{
+  width: 60%;
+  height: auto;
+  display: inline-block;
+  font-weight: bold;
+}
+.Book-Car-Estimate-Price{
+  width: 35%;
+  height: auto;
+  float: right;
+  display: inline-block;
+  text-align:right;
+}
+.History-Booking-Right-Container{
+
+}
+/*End of Book Car wrapper*/
+/*Start of the customization for the flasher*/
+.My-Flasher{
+  width: 100%;
+  height: 40px;
+  background-color: #000;
+  position: fixed;
+  bottom: 0;
+  color:#fff;
+  padding: 10px;
+  z-index: 99999;
+}
+.My-Flasher-White{
+  color: white !important;
+  outline: none !important;
+}
+/*End of the customization of the flasher*/
+/*Start of Payment Page*/
+#Pay-Car-Section{
+  margin-top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 0.80rem;
+  width: 500px;
+  height: 100%;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Pay-Car-Header{
+  height: 90px;
+  width: 100%;
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #e5e5e5;
+  border-top-left-radius: 0.80rem;
+  border-top-right-radius: 0.80rem;
+}
+.Pay-Car-Row{
+  width: 100%;
+  height: 100px;
+  padding: 25px;
+  margin: auto;
+}
+.Pay-Car-Second-Row
+{
+  width: 100%;
+  height: 100px;
+  padding: 25px;
+}
+.Card_Number_Input{
+  width: 420px;
+  text-align: center;
+  vertical-align: top;
+  padding: 2px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.MMYY_Input{
+  width: 50px;
+  margin-right: 12px;
+  text-align: center;
+    outline: none;
+}
+.Pay-Car-Left-Second-Container{
+  display: inline-block;
+  float: left;
+}
+.Pay-Car-Right-Second-Container{
+  display: inline-block;
+  float: right;
+}
+.Pay-Car-Input{
+  display: inline-block;
+}
+#Lock_Icon{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  vertical-align: top;
+  text-align: center;
+  background-color: #FFD93B; /*Yellow*/
+}
+#Pay-Car-Bottom{
+  height: 90px;
+  width: 100%;
+  padding: 25px;
+  background-color: #e5e5e5;
+  border-bottom-left-radius: 0.80rem;
+  border-bottom-right-radius: 0.80rem;
+}
+.Total_Amount{
+  font-size: 26px;
+  font-style: bold;
+  background-color: #FFD93B;
+}
+.CVV_Input{
+  display: block;
+    outline: none;
+}
+.Payment_Button{
+  background-color: #FFD93B; /* Green */
+  border: none;
+  padding: 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  outline: none;
+}
+/*End of Payment Page*/
+/* Start of Confirmation Page*/
+.Confirmation-Car-Row{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding-left: 20px;
+  padding-Right: 20px;
+  font-family: 'Jomolhari';
+}
+.Confirmation-Image-Container{
+  text-align: center;
+}
+.Confirmation-Car-Row img{
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+#demo{
+  display: inline-block;
+}
+#Hop-In-Button{
+  background-color: #FFD93B; /* Green */
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  display: none; /*Hide it first*/
+  border-radius: 0.25rem;
+}
+
+.Confirmation-Cars-Icon{
+  width: 100%;
+  height: auto;
+}
+.Confirmation-Cars-Icon img{
+  width: 18px;
+  height: 18px;
+}
+.Confirmation-Inline-Block-Car-Row{
+  display: inline-block;
+  width: calc((100% / 2) - 4.0px);
+  padding: 10px;
+  vertical-align: top;
+}
+#userfeedbacktextarea{
+  font-size: 12px;
+  border: 1px solid #FFD93B;
+  outline: none;
+  text-align: left;
+}
+#Submit-Feedback-Button{
+  background-color: #FFD93B; /* yellow */
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  display: block; /*Hide it first*/
+  border-radius: 0.25rem;
+}
+.ratingstar{
+  text-align: center;
+}
+.ratingstar img{
+  width: 30px;
+  height: 30px;
+
+}
+/* End of Confirmation Page*/
+/* Start of History Page */
+#History-Booking-Section{
+  margin-top: 11px;
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  position: relative;
+}
+.History-Booking-Container{
+  width: 100%;
+  height: 225px;
+  border: 1px solid #e5e5e5;
+  padding: 4px 8px;
+  font-family: 'Jomolhari';
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+.History-Booking-Left-Container{
+  width: 25%;
+  height: 100%;
+  display: inline-block;
+  float: left;
+  vertical-align: top;
+}
+.History-Booking-Left-Container img{
+  width: 100%;
+  height: 100%;
+  padding-right: 6px;
+  object-fit: contain;
+}
+.History-Booking-Middle-Container{
+  width: 35%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 2px;
+  border-left: 1px solid #e5e5e5; /*Grey*/
+  border-right: 1px solid #e5e5e5; /*Grey*/
+  vertical-align: top;
+}
+.History-Booking-Second-Middle-Container{
+  width: 21%;
+  height: 100%;
+  display: inline-block;
+  margin-right: 2px;
+  border-right: 1px solid #e5e5e5; /*Grey*/
+  vertical-align: top;
+  padding-right: 2px;
+}
+.History-Booking-Car-Tilte{
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+.History-Booking-Car-Charges-Wrapper{
+  width: 100%;
+  height: auto;
+  font-size: 14px;
+  padding: 15px 2px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.Book-Car-Charges-Wrapper{
+  width: 100%;
+  height: auto;
+  font-size: 15px;
+  padding: 15px 2px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.History-Booking-Car-Estimate-Price-Title{
+  width: 60%;
+  height: auto;
+  display: inline-block;
+  font-weight: bold;
+}
+.History-Booking-Car-Estimate-Price{
+  width: 35%;
+  height: auto;
+  float: right;
+  display: inline-block;
+  text-align:right;
+}
+.History-Booking-Right-Container{
+  width: 18%;
+  height: 100%;
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+  text-align: center;
+}
+#PrintReceipeButton{
+  text-align: center;
+  margin:85px auto;
+  vertical-align: middle;
+  background-color: #FFD93B; /* Green */
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  border-radius: 0.25rem;
+  outline: none;
+}
+/* End of History Page*/
+/*End of the filter and result*/
+.Footer-Logo{
+  width: 210px;
+  height: 50px;
+  border: 1px solid #FFD93B;
+  background-color: #FFD93B;
+  border-radius: 0.25rem;
+  padding: 0px 3px;
+  margin-left: 10px;
+}
+#Home-Footer{
+  width: calc(100% - 240px);
+  height: 330px;
+  margin-left: 240px;
+  background-color: #212A30;
+  color: #fff;
+  padding: 25px;
+}
+#Footer-Section{
+  margin: auto;
+}
+/*General Style*/
+.Outline-None{
+  Outline: none !important;
+}
+/*Admin style*/
+#Car-Table-Container{
+  height: auto;
+  width: 100%;
+  padding: 12px;
+  position: relative;
+}
+#Car-Table-Wrapper{
+  margin-top: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.40rem;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 500px;
+  padding: 20px;
+}
+#Add-New-Car-Button{
+  background-color: #FFD93B; /* Green */
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+  display: block;
+  border-radius: 0.25rem;
+  width: 100px;
+  outline: none;
+}
+.Horizontal-Add-Cars-Middle{
+  width: 30%;
+  height: 100%;
+  display: inline-block;
+  padding: 3px;
+  float: right;
+  border-left: 1px solid #e5e5e5;
+  margin: 0px 2px;
+}
+.Horizontal-Add-Cars-Middle img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 2px;
+}
+.TopButtonWrapper{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.Submit-Button{
+  background-color: #FFD93B; /* Green */
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  float: right;
+
+  border-radius: 0.25rem;
+}
+.Table-Radius{
+  border-radius: 0.40rem 0.40rem 0px 0px;
+  border: none!important;
+}
+#AddNewCarModal{
+  margin-top: 136px;
+}
+#Add_New_Car_Wrapper{
+  margin-top: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.40rem;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 1000px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Add_New_Available_Wrapper{
+  margin-top: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.40rem;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 670px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#Add_New_Driver_Wrap{
+  margin-top: 50px;
+  border: 1px solid #e5e5e5;
+  border-radius: 0.40rem;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  height: 450px;
+  margin-bottom: 20px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#cars{
+  display: block;
+  width: 100%;
+}
